@@ -42,13 +42,15 @@ export const SixPart = () => {
                   w="640px"
                   h="77px"
                   mt="20px"
+
                   color="white"
                   textAlign="left"
-                  fontSize="24px"
-                  fontWeight="bold"
+                  fontFamily="Shojumaru"
+                  fontSize="20px"
+                  fontWeight="400"
                   borderRadius="10px"
                   justifyContent="flex-start"
-                  alignItems="center"
+                  alignItems="center"  padding= "15px"
                   display="flex"
                   border="1px solid red"
                   paddingLeft="20px" // Add padding-left for space between the number and content
@@ -63,13 +65,14 @@ export const SixPart = () => {
                   mt="20px"
                   color="white"
                   textAlign="left"
-                  fontSize="24px"
+                 fontFamily="Shojumaru"
+                  fontSize="20px"
                   fontWeight="bold"
                   borderRadius="10px"
                   justifyContent="flex-start"
                   alignItems="center"
                   display="flex"
-                  border="1px solid red"
+                  border="1px solid red"   padding= "15px"
                   paddingLeft="20px" // Add padding-left for space between the number and content
                 >
                   2&nbsp;&nbsp;&nbsp;WHY IS THE IDO DURATION SO LONG
@@ -80,14 +83,16 @@ export const SixPart = () => {
                   mt="20px"
                   color="white"
                   textAlign="left"
-                  fontSize="24px"
+                  fontFamily="Shojumaru"
+                  fontSize="20px"
                   fontWeight="bold"
                   borderRadius="10px"
                   justifyContent="flex-start"
                   alignItems="center"
                   display="flex"
                   border="1px solid red"
-                  paddingLeft="20px" // Add padding-left for space between the number and content
+                  paddingLeft="20px"   padding= "15px"
+                   // Add padding-left for space between the number and content
                 >
                   3&nbsp;&nbsp;&nbsp;WHEN WILL TRADING GO LIVE
                 </Box>
@@ -97,19 +102,23 @@ export const SixPart = () => {
                   mt="20px"
                   color="white"
                   textAlign="left"
-                  fontSize="24px"
+                  fontFamily="Shojumaru"
+                  fontSize="20px"
                   fontWeight="bold"
                   border="1px solid red"
                   borderRadius="10px"
                   paddingLeft={"20px"}
+                  padding= "15px"
                 >
                   4&nbsp;&nbsp;&nbsp; WHEN WILL WE CLAIM THE TOKEN
                   <Text
                     mt="10px"
-                    fontSize="20px"
-                    fontWeight="normal"
+                    fontFamily="Shojumaru"
+                  fontSize="15px"
+                    fontWeight="200"
                     background={"rgb(24,24,24)"}
                     marginLeft={"30px"}
+                    padding= "15px"
                   >
                     After the IDO concludes, you can claim the tokens on our
                     official website.

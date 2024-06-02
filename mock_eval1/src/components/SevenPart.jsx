@@ -1,6 +1,6 @@
 
 import { Box, Flex, Image ,Text} from "@chakra-ui/react";
-import {FaTwitter} from "@chakra-ui/react";
+// import {FaTwitter,FaTelegramPlane,FaEnvelope } from "@chakra-ui/icons";
 
 export const SevenPart = () => {
   return (
@@ -42,14 +42,14 @@ export const SevenPart = () => {
             flexDirection="row"
             justifyContent="space-between"
           >
-             <Text color="white" fontFamily={"Poppins"} fontWeight={"600"} fontSize={"12.82px"}>Home</Text>
-            <Text color="white" fontFamily={"Poppins"} fontWeight={"600"} fontSize={"12.82px"}>IDO</Text>
-            <Text color="white" fontFamily={"Poppins"} fontWeight={"600"} fontSize={"12.82px"}>Takenomics</Text>
-            <Text color="white" fontFamily={"Poppins"} fontWeight={"600"} fontSize={"12.82px"}>Road Map</Text>
-            <Text color="white" fontFamily={"Poppins"} fontWeight={"600"} fontSize={"12.82px"}>Whitepaper</Text>
-            <Text color="white" fontFamily={"Poppins"} fontWeight={"600"} fontSize={"12.82px"}>Pledge</Text>
-            <Text color="white" fontFamily={"Poppins"} fontWeight={"600"} fontSize={"12.82px"}>NFT</Text>
-            <Text color="white" fontFamily={"Poppins"} fontWeight={"600"} fontSize={"12.82px"}>Games</Text>
+             <Text color="white" fontFamily={"Poppins"} fontWeight={"600"} fontSize={"15px"}>Home</Text>
+            <Text color="white" fontFamily={"Poppins"} fontWeight={"600"} fontSize={"15px"}>IDO</Text>
+            <Text color="white" fontFamily={"Poppins"} fontWeight={"600"} fontSize={"15px"}>Takenomics</Text>
+            <Text color="white" fontFamily={"Poppins"} fontWeight={"600"} fontSize={"15px"}>Road Map</Text>
+            <Text color="white" fontFamily={"Poppins"} fontWeight={"600"} fontSize={"15px"}>Whitepaper</Text>
+            <Text color="white" fontFamily={"Poppins"} fontWeight={"600"} fontSize={"15px"}>Pledge</Text>
+            <Text color="white" fontFamily={"Poppins"} fontWeight={"600"} fontSize={"15px"}>NFT</Text>
+            <Text color="white" fontFamily={"Poppins"} fontWeight={"600"} fontSize={"15px"}>Games</Text>
           </Box>
         
           <Flex
@@ -61,9 +61,9 @@ export const SevenPart = () => {
            
             
           >
-            <FaTwitter  color="red" marginLeft="20px"/>
+            {/* <FaTwitter  color="red" marginLeft="20px"/>
             <FaTelegramPlane color="red" marginLeft="70px"/>
-            <FaEnvelope color="red" marginLeft="20px"/>
+            <FaEnvelope color="red" marginLeft="20px"/> */}
           </Flex>
         </Box>
     </>

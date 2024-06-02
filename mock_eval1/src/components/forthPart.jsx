@@ -2,7 +2,7 @@ import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
 
 export const ForthPart = () => {
   return (
-    <Box w="1512px" h="700px" pt="80px" backgroundColor={"black"}>
+    <Box w="1512px" h="650px" pt="80px" backgroundColor={"black"}>
       <Text className="heading-text" textAlign={"center"}>
         Tokenomics
       </Text>
@@ -88,7 +88,7 @@ export const ForthPart = () => {
         <Box
           width="940px"
           h="350px"
-          border="1px solid white"
+        //   border="1px solid white"
           ml="70px"
           mt="100px"
         >

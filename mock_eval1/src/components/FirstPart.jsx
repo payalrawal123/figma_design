@@ -1,36 +1,38 @@
-import React, { useState } from "react";
 import {
-  Box,
-  Button,
-  Flex,
-  IconButton,
-  Text,
-  Spacer
-} from "@chakra-ui/react";
-import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
+    Box,
+    Button,
+    Center,
+    Flex,
+    FormControl,
+    FormLabel,
+    Image,
+    Input,
+    InputGroup,
+    InputRightElement,
+    Radio,
+    RadioGroup,
+    Spacer,
+    Text,
+  } from "@chakra-ui/react";
 
-export const FirstPart = () => {
-  const [isOpen, setIsOpen] = useState(false);
+export const FirstPart = () =>{
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
-  return (
-    <Box>
-      <Box backgroundColor={"black"}>
+    return(
+        <Box>
+<Box backgroundColor={"black"}>
         <Box
-          w="100%"
-          h={{ base: "auto", md: "588px" }}
+          w="1518px"
+          h="588px"
           backgroundImage={
             "https://s3-alpha-sig.figma.com/img/894b/df6e/56b90bbef82ad188765f40d12a46caef?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jBniJIIabUM5Sz2MptOUCZcISt5SJUkYa~32yo4k4uKIZOnsv2UPfRCUlYo-w2quEcv9rqDuuafokBaRla7zZMxJf6ILz1UBaSYRjEtjO9Is-QiWLUdkXnOgDQSf2oZEvHTyyPZkokWIVlUlyVkawK~OaqKGqcoGccfLpefDMbC4Gzb9p8Ta~8QmdfAVadD~0KfT8IvJYgefdHWYAyFSSAUkE35Ne4jTu0pXAH61KDcvPipctfKO-Pkq3j3Q9ADYxg-c8H2970mBZ8c7Ap8dDwtCB3Nx7ZseV8CNB-SnNW4TjDWGB9wVYeRtEnABJmkKot4pxdnjs04l5mKHfXR4VA__"
           }
           backgroundPosition={"center"}
           backgroundSize={"cover"}
         >
-          <Flex direction={{ base: "column", md: "row" }} align="center">
-            <Box mt={{ base: "20px", md: "20px" }} ml={{ base: "20px", md: "20px" }}>
-              <Flex align="center">
+          <Flex>
+            <Box>
+              <Flex >
+              
                 <Box
                   className="logo"
                   w="106px"
@@ -40,7 +42,9 @@ export const FirstPart = () => {
                   }
                   backgroundPosition={"center"}
                   backgroundSize={"cover"}
-                />
+                  mt="27px"
+                  ml="88px"
+                ></Box>
                 <Text
                   fontFamily="ZCOOL KuaiLe"
                   sans-serif
@@ -48,8 +52,7 @@ export const FirstPart = () => {
                   fontSize="32px"
                   color={"white"}
                   textAlign={"center"}
-                  mt={{ base: "0", md: "56px" }}
-                  ml={{ base: "10px", md: "20px" }}
+                  mt="56px"
                 >
                   Saviour
                 </Text>
@@ -58,36 +61,23 @@ export const FirstPart = () => {
             <Spacer />
 
             <Box
-              width={{ base: "100%", md: "583px" }}
+              width="583px"
               height="52px"
-              mt={{ base: "20px", md: "6px" }}
-              p="16px 24px"
+              mt="46px"
+              p=" 16px 24px 16px 24px"
               gap="24px"
               borderRadius="20px"
               bg={"black"}
               color={"white"}
               fontFamily="ZCOOL KuaiLe"
-              display="flex"
-              alignItems="center"
-              justifyContent="center"
+              display={{ base: 'none', md: 'flex' }}
             >
-              <IconButton
-                icon={isOpen ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} />}
-                variant="ghost"
-                aria-label="Toggle Navigation"
-                display={{ base: "block", md: "none" }}
-                onClick={toggleMenu}
-              />
-              <Flex
-                direction={{ base: "column", md: "row" }}
-                alignItems="center"
-                display={{ base: isOpen ? "flex" : "none", md: "flex" }}
-              >
+              <Flex>
                 <Text>HOME</Text>
-                <Text ml={{ base: "0", md: "24px" }}>IDO</Text>
-                <Text ml={{ base: "0", md: "24px" }}>TACKNOMICS</Text>
-                <Text ml={{ base: "0", md: "24px" }}>ROADMAP</Text>
-                <Text ml={{ base: "0", md: "24px" }}>COMING SOON</Text>
+                <Text ml="24px">IDO</Text>
+                <Text ml="24px">TACKNOMICS</Text>
+                <Text ml="24px">ROADMAP</Text>
+                <Text ml="24px">COMMING SOON</Text>
               </Flex>
             </Box>
             <Spacer />
@@ -95,34 +85,37 @@ export const FirstPart = () => {
               <Button
                 width="127px"
                 height="38px"
-                mt={{ base: "20px", md: "54px" }}
-                mr={{ base: "20px", md: "88px" }}
+                mt="54px"
+                mr="88px"
                 colorScheme="red"
-                p="10px 16px"
+                p="10px 16px 10px 16px"
                 gap="6.18px"
                 borderRadius="16px"
                 fontSize="14px"
+                opacity="0px"
               >
                 Connect Wallet
               </Button>
             </Box>
           </Flex>
           <Box
-            width={{ base: "90%", md: "1262px" }}
+            width="1262px"
             height="108px"
-            mt={{ base: "40px", md: "116px" }}
-            ml={{ base: "5%", md: "123px" }}
-            fontSize={{ base: "24px", md: "45px" }}
+            mt="116px"
+            ml="123px"
+            fontSize="45px"
             textAlign={"center"}
             color={"white"}
             fontFamily="Shojumaru"
           >
             <Text>
-              Where Blockchain Heroes Thrive, Rescuing Dreams, Elevating Fortunes.
+              Where Blockchain Heroes Thrive, Rescuing Dreams, Elevating
+              Fortunes.
             </Text>
           </Box>
         </Box>
       </Box>
-    </Box>
-  );
-};
+     
+        </Box>
+    )
+}

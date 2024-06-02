@@ -1,6 +1,6 @@
 
 import { Box, Flex, Image ,Text} from "@chakra-ui/react";
-// import {FaTwitter,FaTelegramPlane,FaEnvelope } from "@chakra-ui/icons";
+// import {FaTwitter,FaTelegramPlane,FaEnvelope } from "react-icons";
 
 export const SevenPart = () => {
   return (
